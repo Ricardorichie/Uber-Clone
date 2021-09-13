@@ -1,8 +1,10 @@
 {
   "expo": {
-    "name": "uber-clone",
-    "slug": "uber-clone",
+    "name": "Uber Clone",
+    "slug": "Uber-Clone",
+    "privacy": "public",
     "version": "1.0.0",
+    "description": "This is a demo uber clone",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -21,9 +23,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.richieed.UberClone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
